@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery App UI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container-fluid app-container p-0">
+        <header class="navbar navbar-expand-lg bg-white sticky-top shadow-sm py-3">
+            <div class="container-fluid px-3">
+                <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
+                    <i class="bi bi-geo-alt-fill me-2 text-success"></i> Park Way 145
+                </a>
+                <div class="d-flex align-items-center">
+                    <button class="btn btn-link text-dark p-0 me-3" type="button">
+                        <i class="bi bi-bell fs-5"></i>
+                    </button>
+                    <button class="btn btn-link text-dark p-0" type="button">
+                        <i class="bi bi-cart fs-5"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <section class="search-section py-3 px-3 bg-white">
+            <div class="input-group">
+                <span class="input-group-text bg-light border-0 rounded-start-pill" id="search-addon"><i class="bi bi-search"></i></span>
+                <input type="text" class="form-control bg-light border-0 rounded-end-pill" placeholder="Food, groceries, etc." aria-label="Search" aria-describedby="search-addon">
+            </div>
+        </section>
+
+        <section class="categories-section py-3 px-3 bg-white border-bottom">
+            <div class="d-flex flex-nowrap overflow-auto hide-scroll-bar pb-2">
+                <div class="category-item text-center me-3 flex-shrink-0">
+                    <button class="btn btn-light rounded-circle p-3 mb-1 category-icon active">
+                        <i class="bi bi-trophy fs-5 text-success"></i>
+                    </button>
+                    <small class="d-block text-muted">Acclaimed</small>
+                </div>
+                <div class="category-item text-center me-3 flex-shrink-0">
+                    <button class="btn btn-light rounded-circle p-3 mb-1 category-icon">
+                        <i class="bi bi-heart fs-5 text-success"></i>
+                    </button>
+                    <small class="d-block text-muted">Healthy</small>
+                </div>
+                <div class="category-item text-center me-3 flex-shrink-0">
+                    <button class="btn btn-light rounded-circle p-3 mb-1 category-icon">
+                        <i class="bi bi-pizza fs-5 text-success"></i>
+                    </button>
+                    <small class="d-block text-muted">Pizza</small>
+                </div>
+                <div class="category-item text-center me-3 flex-shrink-0">
+                    <button class="btn btn-light rounded-circle p-3 mb-1 category-icon">
+                        <i class="bi bi-egg-fried fs-5 text-success"></i>
+                    </button>
+                    <small class="d-block text-muted">Ramen</small>
+                </div>
+                <div class="category-item text-center me-3 flex-shrink-0">
+                    <button class="btn btn-light rounded-circle p-3 mb-1 category-icon">
+                        <i class="bi bi-burger fs-5 text-success"></i>
+                    </button>
+                    <small class="d-block text-muted">Burgers</small>
+                </div>
+                <div class="category-item text-center me-3 flex-shrink-0">
+                    <button class="btn btn-light rounded-circle p-3 mb-1 category-icon">
+                        <i class="bi bi-cup-straw fs-5 text-success"></i>
+                    </button>
+                    <small class="d-block text-muted">Drinks</small>
+                </div>
+            </div>
+        </section>
+
+        <main class="content-area pt-3 pb-5">
+            <section class="fastest-section mb-4 px-3">
+                <h5 class="fw-bold mb-3">Fastest</h5>
+                <div class="d-flex flex-nowrap overflow-auto hide-scroll-bar pb-2">
+                    <div class="card restaurant-card me-3 flex-shrink-0 shadow-sm border-0">
+                        <img src="img/3018.jpg" class="card-img-top rounded-3" alt="Morning Delights Café" style="height: 150px; object-fit: cover;">
+                        <div class="card-body p-3">
+                            <h6 class="card-title fw-bold mb-1">Morning Delights Café</h6>
+                            <p class="card-text mb-1"><small class="text-muted">
+                                <i class="bi bi-star-fill text-warning me-1"></i> 4.9 (101+) &bull; 2.3km &bull; 38 min
+                            </small></p>
+                            <span class="badge bg-success-subtle text-success rounded-pill px-2 py-1">Breakfast</span>
+                        </div>
+                    </div>
+                    <div class="card restaurant-card me-3 flex-shrink-0 shadow-sm border-0">
+                        <img src="img/2149141362.jpg" class="card-img-top rounded-3" alt="Sunrise Eats" style="height: 150px; object-fit: cover;">
+                        <div class="card-body p-3">
+                            <h6 class="card-title fw-bold mb-1">Sunrise Eats</h6>
+                            <p class="card-text mb-1"><small class="text-muted">
+                                <i class="bi bi-star-fill text-warning me-1"></i> 4.8 (85+) &bull; 2.3k &bull; 45 min
+                            </small></p>
+                            <span class="badge bg-primary-subtle text-primary rounded-pill px-2 py-1">Healthy</span>
+                        </div>
+                    </div>
+                    <div class="card restaurant-card me-3 flex-shrink-0 shadow-sm border-0">
+                        <img src="img/pizza.jpg" class="card-img-top rounded-3" alt="Pizza Hub" style="height: 150px; object-fit: cover;">
+                        <div class="card-body p-3">
+                            <h6 class="card-title fw-bold mb-1">Pizza Hub</h6>
+                            <p class="card-text mb-1"><small class="text-muted">
+                                <i class="bi bi-star-fill text-warning me-1"></i> 4.7 (200+) &bull; 3.0km &bull; 30 min
+                            </small></p>
+                            <span class="badge bg-danger-subtle text-danger rounded-pill px-2 py-1">Pizza</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="recommended-section mb-4 px-3">
+                <h5 class="fw-bold mb-3">Recommended</h5>
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <div class="card recommended-card shadow-sm border-0">
+                            <img src="img/mexican-grill.jpeg" class="card-img-top rounded-3" alt="Sabor Mexicano Grill" style="height: 200px; object-fit: cover;">
+                            <div class="card-body p-3">
+                                <h6 class="card-title fw-bold mb-1">Sabor Mexicano Grill</h6>
+                                <p class="card-text mb-1"><small class="text-muted">
+                                    <i class="bi bi-star-fill text-warning me-1"></i> 4.7 (59) &bull; 1.5km &bull; 20 min
+                                </small></p>
+                                <p class="card-text text-success fw-bold mb-0"><small>
+                                    $0 delivery fee over $30
+                                </small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <div class="card recommended-card shadow-sm border-0">
+                            <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top rounded-3" alt="Burger Haven" style="height: 200px; object-fit: cover;">
+                            <div class="card-body p-3">
+                                <h6 class="card-title fw-bold mb-1">Burger Haven</h6>
+                                <p class="card-text mb-1"><small class="text-muted">
+                                    <i class="bi bi-star-fill text-warning me-1"></i> 4.9 (1940) &bull; 4km &bull; 35 min
+                                </small></p>
+                                <p class="card-text text-success fw-bold mb-0"><small>
+                                    Special discount available
+                                </small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <nav class="navbar navbar-expand-lg bg-white fixed-bottom shadow-lg py-2">
+            <div class="container-fluid justify-content-around">
+                <a class="nav-link text-center active text-success" aria-current="page" href="#">
+                    <i class="bi bi-house-door-fill fs-5 mb-1"></i>
+                    <small class="d-block">Home</small>
+                </a>
+                <a class="nav-link text-center text-muted" href="#">
+                    <i class="bi bi-grid-fill fs-5 mb-1"></i>
+                    <small class="d-block">Browse</small>
+                </a>
+                <a class="nav-link text-center text-muted" href="#">
+                    <i class="bi bi-journal-text fs-5 mb-1"></i>
+                    <small class="d-block">Orders</small>
+                </a>
+                <a class="nav-link text-center text-muted" href="#">
+                    <i class="bi bi-person-fill fs-5 mb-1"></i>
+                    <small class="d-block">Profile</small>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
