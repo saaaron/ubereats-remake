@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubereats Remake - Track Order</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-icons.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+  <nav class="navbar navbar-expand-sm fixed-top header-color">
+    <div class="container d-flex justify-content-between">
+      <div class="fw-bold">
+        <a class="navbar-brand text-white" href="index.html">Ubereats</a>
+      </div>
+      <div class="user-pic">
+        <img src="img/user.png" alt="user">
+      </div>
+    </div>
+  </nav>
+  <div class="container" style="margin-top: 80px;margin-bottom: 5rem;">
+    <div class="row mb-2">
+        <h3 class="fw-bold">Track Order</h3>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24583.939748326105!2d7.401842871378006!3d9.064034604103366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e751c01f04185%3A0x3c6ec5e6235717cf!2sJabi%2C%20Abuja%20900108%2C%20Federal%20Capital%20Territory!5e1!3m2!1sen!2sng!4v1763243437011!5m2!1sen!2sng" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="tracking-pre"></div>
+        <div id="tracking">
+          <div class="tracking-list">
+            <div class="tracking-item">
+              <div class="tracking-icon status-intransit">
+                <svg class="svg-inline--fa fa-circle fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="circle"
+                  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                  <path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z">
+                  </path>
+                </svg>
+              </div>
+              <div class="tracking-date"><i class="bi bi-box"></i></div>
+              <div class="tracking-content">Order Placed<span>15 Nov 2025, 10:00am</span></div>
+            </div>
+            <div class="tracking-item">
+              <div class="tracking-icon status-intransit">
+                <svg class="svg-inline--fa fa-circle fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="circle"
+                  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                  <path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z">
+                  </path>
+                </svg>
+              </div>
+              <div class="tracking-date"><i class="bi bi-box"></i></div>
+              <div class="tracking-content">Order Confirmed<span>15 Nov 2025, 10:05am</span></div>
+            </div>
+            <div class="tracking-item">
+              <div class="tracking-icon status-intransit">
+                <svg class="svg-inline--fa fa-circle fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="circle"
+                  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                  <path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z">
+                  </path>
+                </svg>
+              </div>
+              <div class="tracking-date"><i class="bi bi-box"></i></div>
+              <div class="tracking-content">Packed for Delivery<span>15 Nov, 10:06am</span></div>
+            </div>
+            <div class="tracking-item-pending">
+              <div class="tracking-icon status-intransit">
+                <svg class="svg-inline--fa fa-circle fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="circle"
+                  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                  <path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z">
+                  </path>
+                </svg>
+              </div>
+              <div class="tracking-date"><i class="bi bi-box"></i></div>
+              <div class="tracking-content">Out for Delivery<span>15 Nov, 10:07pm</span></div>
+            </div>
+            <div class="tracking-item-pending">
+              <div class="tracking-icon status-intransit">
+                <svg class="svg-inline--fa fa-circle fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="circle"
+                  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                  <path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z">
+                  </path>
+                </svg>
+              </div>
+              <div class="tracking-date"><i class="bi bi-box"></i></div>
+              <div class="tracking-content">Delivered<span>15 Nov 2025, 10:10pm</span></div>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+  </div>
+
+  <footer class="fixed-bottom">
+    <div class="bg-white p-2" style="box-shadow: 0px 7px 20px 1px #888888;">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between footer-links">
+          <div class="text-center" style="line-height: 80%;">
+            <a href="index.html">
+              <div class="bi bi-house-fill" style="font-size: 20pt;"></div>
+              <font size="1">Home</font>
+            </a>
+          </div>
+          <div class="text-center" style="line-height: 80%;">
+            <a href="#search">
+              <div class="bi bi-search" style="font-size: 20pt;"></div>
+              <font size="1">Browse</font>
+            </a>
+          </div>
+          <div class="text-center" style="line-height: 80%;">
+            <a href="#baskets">
+              <div class="bi bi-cart" style="font-size: 20pt;"></div>
+              <font size="1">Baskets</font>
+            </a>
+          </div>
+          <div class="text-center" style="line-height: 80%;">
+            <a href="#user">
+              <div class="bi bi-person" style="font-size: 20pt;"></div>
+              <font size="1">Account</font>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  </script>
+</body>
+</html>
