@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor Mexicano Grill - Food Delivery App UI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container-fluid app-container p-0">
+        
+<header class="restaurant-header sticky-top bg-white">
+            <div class="header-image-container">
+                <img src="img/mexican-grill.jpeg" class="header-image" alt="Sabor Mexicano Grill interior">
+                
+<div class="header-overlay-nav d-flex justify-content-between align-items-center p-3">
+                    <a href="index.html" class="btn btn-light rounded-circle p-0" style="width: 40px; height: 40px; line-height: 40px;">
+                        <i class="bi bi-chevron-left"></i>
+                    </a>
+                    <div class="d-flex">
+                        <button class="btn btn-light rounded-circle p-0 me-2" style="width: 40px; height: 40px; line-height: 40px;">
+                            <i class="bi bi-box-arrow-up"></i>
+                        </button>
+                        <button class="btn btn-light rounded-circle p-0 me-2" style="width: 40px; height: 40px; line-height: 40px;">
+                            <i class="bi bi-bookmark"></i>
+                        </button>
+                        <button class="btn btn-light rounded-circle p-0" style="width: 40px; height: 40px; line-height: 40px;">
+                            <i class="bi bi-three-dots"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="content-area pt-3 pb-5">
+            
+<section class="restaurant-info px-3 pb-3">
+                <h2 class="fw-bold mb-1">Sabor Mexicano Grill</h2>
+                <p class="text-muted mb-3">
+                    <i class="bi bi-star-fill text-warning me-1"></i> 4.9 (103) &bull; 2.3km &bull; 25 min
+                </p>
+                
+<div class="card bg-success-subtle text-success border-0 shadow-sm p-3">
+                    <div class="d-flex align-items-center">
+                        <img src="img/mexican-grill.jpeg" alt="Promo" class="rounded-circle me-3" style="width: 50px; height: 50px; object-fit: cover;">
+                        <div>
+                            <h6 class="fw-bold mb-0">$0 delivery fee over $30</h6>
+                            <small class="text-success">Use WELCOME30 promo code on any order</small>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+<nav id="menu-nav" class="navbar navbar-expand-lg bg-white sticky-top shadow-sm border-bottom">
+                <div class="container-fluid px-3">
+                    <div class="d-flex flex-nowrap overflow-auto hide-scroll-bar w-100">
+                        <a class="nav-link fw-bold me-3 active" href="#popular">Popular</a>
+                        <a class="nav-link text-muted fw-bold me-3" href="#new">New</a>
+                        <a class="nav-link text-muted fw-bold me-3" href="#tacos">Tacos</a>
+                        <a class="nav-link text-muted fw-bold me-3" href="#tortillas">Tortillas</a>
+                        <a class="nav-link text-muted fw-bold me-3" href="#burritos">Burritos</a>
+                        <a class="nav-link text-muted fw-bold me-3" href="#grilled">Grilled</a>
+                    </div>
+                </div>
+            </nav>
+
+            
+<section class="menu-items px-3 pt-3">
+                
+<div id="popular">
+                    <h4 class="fw-bold mb-3">Popular</h4>
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item d-flex p-0 pb-3 mb-3 border-bottom">
+                            <img src="img/tacos.jpg" alt="Tacos" class="rounded-3 me-3" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="flex-grow-1">
+                                <h6 class="fw-bold mb-1">Tacos</h6>
+                                <p class="mb-1 text-muted">$14.99</p>
+                            </div>
+                            <button class="btn btn-outline-success rounded-circle p-0" style="width: 35px; height: 35px; line-height: 35px;">
+                                <i class="bi bi-plus-lg"></i>
+                            </button>
+                        </div>
+                        <div class="list-group-item d-flex p-0 pb-3 mb-3 border-bottom">
+                            <img src="img/cheese-quesadilla.jpg" alt="Cheese Quesadillas" class="rounded-3 me-3" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="flex-grow-1">
+                                <h6 class="fw-bold mb-1">Cheese Quesadillas</h6>
+                                <p class="mb-1 text-muted">$10.99</p>
+                            </div>
+                            <button class="btn btn-outline-success rounded-circle p-0" style="width: 35px; height: 35px; line-height: 35px;">
+                                <i class="bi bi-plus-lg"></i>
+                            </button>
+                        </div>
+                        <div class="list-group-item d-flex p-0 pb-3 mb-3 border-bottom">
+                            <img src="img/churros.jpg" alt="Churros" class="rounded-3 me-3" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="flex-grow-1">
+                                <h6 class="fw-bold mb-1">Churros</h6>
+                                <p class="mb-1 text-muted">$6.99</p>
+                            </div>
+                            <button class="btn btn-outline-success rounded-circle p-0" style="width: 35px; height: 35px; line-height: 35px;">
+                                <i class="bi bi-plus-lg"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                
+<div id="new">
+                    <h4 class="fw-bold mb-3 pt-3">New</h4>
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item d-flex p-0 pb-3 mb-3 border-bottom">
+                            <img src="img/fajitas.jpg" alt="Fajitas" class="rounded-3 me-3" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="flex-grow-1">
+                                <h6 class="fw-bold mb-1">Fajitas</h6>
+                                <p class="mb-1 text-muted">$16.99</p>
+                            </div>
+                            <button class="btn btn-outline-success rounded-circle p-0" style="width: 35px; height: 35px; line-height: 35px;">
+                                <i class="bi bi-plus-lg"></i>
+                            </button>
+                        </div>
+                        <div class="list-group-item d-flex p-0 pb-3 mb-3 border-bottom">
+                            <img src="img/tacos-rajas.jpg" alt="Tacos de Rajas" class="rounded-3 me-3" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="flex-grow-1">
+                                <h6 class="fw-bold mb-1">Tacos de Rajas</h6>
+                                <p class="mb-1 text-muted">$14.99</p>
+                            </div>
+                            <button class="btn btn-outline-success rounded-circle p-0" style="width: 35px; height: 35px; line-height: 35px;">
+                                <i class="bi bi-plus-lg"></i>
+                            </button>
+                        </div>
+                        <div class="list-group-item d-flex p-0 pb-3 mb-3 border-bottom">
+                            <img src="img/chiles-rellenos.jpg" alt="Chiles Rellenos" class="rounded-3 me-3" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="flex-grow-1">
+                                <h6 class="fw-bold mb-1">Chiles Rellenos</h6>
+                                <p class="mb-1 text-muted">$23.99</p>
+                            </div>
+                            <button class="btn btn-outline-success rounded-circle p-0" style="width: 35px; height: 35px; line-height: 35px;">
+                                <i class="bi bi-plus-lg"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                
+<div id="tacos">
+                    <h4 class="fw-bold mb-3 pt-3">Tacos</h4>
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item d-flex p-0 pb-3 mb-3 border-bottom">
+                            <img src="img/tacos-al-pastor.jpg" alt="Tacos al Pastor" class="rounded-3 me-3" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="flex-grow-1">
+                                <h6 class="fw-bold mb-1">Tacos al Pastor</h6>
+                                <p class="mb-1 text-muted">$14.99</p>
+                            </div>
+                            <button class="btn btn-outline-success rounded-circle p-0" style="width: 35px; height: 35px; line-height: 35px;">
+                                <i class="bi bi-plus-lg"></i>
+                            </button>
+                        </div>
+                        <div class="list-group-item d-flex p-0 pb-3 mb-3 border-bottom">
+                            <img src="img/carne-asada-tacos.jpg" alt="Carne Asada Tacos" class="rounded-3 me-3" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="flex-grow-1">
+                                <h6 class="fw-bold mb-1">Carne Asada Tacos</h6>
+                                <p class="mb-1 text-muted">$12.99</p>
+                            </div>
+                            <button class="btn btn-outline-success rounded-circle p-0" style="width: 35px; height: 35px; line-height: 35px;">
+                                <i class="bi bi-plus-lg"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
