@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Food Delivery App UI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container-fluid app-container p-0 bg-white">
+        <header class="navbar navbar-expand-lg bg-white sticky-top py-3 shadow-sm">
+            <div class="container-fluid px-3 d-flex justify-content-start">
+                <div>
+                    <a href="profile.html" class="btn btn-link text-dark p-0 me-3">
+                        <i class="bi bi-chevron-left fs-5"></i>
+                    </a>
+                </div>
+                <div>
+                    <h4 class="fw-bold mb-0">Contact Us</h4>
+                </div>  
+            </div>
+        </header>
+
+        <main class="content-area pt-4 pb-5">
+            <div class="container px-3">
+                
+                <!-- Hero Illustration Area -->
+                <div class="text-center mb-5">
+                    <div class="bg-success-subtle rounded-circle d-inline-flex p-4 mb-3">
+                         <i class="bi bi-headset fs-1 text-green-primary"></i>
+                    </div>
+                    <h3 class="fw-bold mb-2">How can we help?</h3>
+                    <p class="text-muted">Our team is available 24/7 to assist you.</p>
+                </div>
+
+                <!-- Contact Options Grid -->
+                <div class="row g-3 mb-4">
+                    <div class="col-6">
+                        <a href="#" class="text-decoration-none text-dark">
+                            <div class="card border-0 shadow-sm h-100 text-center p-3 contact-card">
+                                <i class="bi bi-chat-dots-fill fs-2 text-green-primary mb-2"></i>
+                                <h6 class="fw-bold">Live Chat</h6>
+                                <small class="text-muted">Wait time: &lt; 2 min</small>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                         <a href="tel:+1234567890" class="text-decoration-none text-dark">
+                            <div class="card border-0 shadow-sm h-100 text-center p-3 contact-card">
+                                <i class="bi bi-telephone-fill fs-2 text-green-primary mb-2"></i>
+                                <h6 class="fw-bold">Call Us</h6>
+                                <small class="text-muted">Wait time: 5 min</small>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Message Form -->
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body p-4">
+                        <h5 class="fw-bold mb-3">Send us a message</h5>
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label small fw-bold text-muted">Topic</label>
+                                <select class="form-select bg-light border-0">
+                                    <option>Select a topic...</option>
+                                    <option>Order Issue</option>
+                                    <option>Payment Problem</option>
+                                    <option>Account Support</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label small fw-bold text-muted">Message</label>
+                                <textarea class="form-control bg-light border-0" rows="4" placeholder="Describe your issue..."></textarea>
+                            </div>
+                            <button type="button" class="btn btn-green-primary w-100 rounded-pill">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
